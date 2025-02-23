@@ -26,7 +26,7 @@ const HomeHero = () => {
 
                 <a href="/about">
                     <Button
-                        route="/about"
+                        route="/blog/about"
                         text="About Me"
                         right
                     />

@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { BrowserRouter, Routes, Route, Redirect } from "react-router-dom";
+import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 
 import Home from "./pages/Home.jsx";
 import About from "./pages/About.jsx";
@@ -23,12 +23,12 @@ root.render(
       <BrowserRouter>
         <AnimatePresence>
           <Routes>
-            <Route path="/home" element={<Home />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/contact" element={<Contact />} />
+            <Route path="/blog/home" element={<Home />} />
+            <Route path="/blog/about" element={<About />} />
+            <Route path="/blog/contact" element={<Contact />} />
            
             {Posts.map(post => (
-                <Route path={post.route} 
+                <Route path={"/blog/" + post.route} 
                 element={
                 <BlogPost title={post.title}
                           date={post.date}
@@ -36,7 +36,7 @@ root.render(
                           content={post.content} />} />
             ))}
           </Routes>
-        </AnimatePresence>
+          </AnimatePresence>
       </BrowserRouter>
     </ThemeProvider >
   </React.StrictMode>
