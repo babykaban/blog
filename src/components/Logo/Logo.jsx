@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import {
     DesktopLogo,
     MobileLogo,
@@ -10,7 +11,7 @@ const split = Data.home.name.split(" ");
 const initials = split[0].charAt(0) + split[1].charAt(0);
 
 const Logo = (props) => (
-    <NavLogo href="/blog">
+    <NavLogo as={Link} to="/">
         <DesktopLogo>
             {Data.home.name}
         </DesktopLogo>

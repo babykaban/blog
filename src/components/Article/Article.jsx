@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import {
     Container,
     CaseLink,
@@ -13,7 +14,7 @@ import { Fade } from 'react-awesome-reveal';
 const Project = (props) => {
     return (
         <Fade direction="top" duration={1000} triggerOnce cascade>
-            <CaseLink href={props.route} target={props.newTab ? '_blank' : null}>
+            <CaseLink as={Link} to={props.route} target={props.newTab ? '_blank' : null}>
                 <CaseStudyContainer>
                     <CaseStudyContent>
                         <Container flexRow leftAlign>

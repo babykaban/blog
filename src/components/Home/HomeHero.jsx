@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Data from '../../Data';
 import {
     Container,
@@ -24,13 +25,13 @@ const HomeHero = () => {
                     <p>{Data.home.description}</p>
                 </Container>
 
-                <a href="/blog/about">
+                <Link to="/about">
                     <Button
-                        route="/blog/about"
+                        route="/about"
                         text="About Me"
                         right
                     />
-                </a>
+                </Link>
             </BodyContainer>
         </HeroContainer>
     )

@@ -9,6 +9,7 @@ import AboutDescription from '../components/About/AboutDescription';
 import AboutResume from '../components/About/AboutResume.jsx';
 import Footer from '../components/Footer/Footer.jsx';
 import Button from '../components/Utility/Button';
+import { Link } from 'react-router-dom';
 
 const About = () => {
     return (
@@ -19,11 +20,12 @@ const About = () => {
 				<AboutDescription />
 				<AboutResume />
 				<Container flex center>
-					<Button
-						right
-						route="/blog/contact"
-						text="Get in touch"
-					/>
+					<Link to="/contact">
+						<Button
+							right
+							text="Get in touch"
+						/>
+					</Link>
 				</Container>
 			</BodyContainer>
 			<Footer />

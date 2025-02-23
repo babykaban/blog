@@ -8,7 +8,7 @@ const Posts = [
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         image: FirstBlogPostImage,
         content: FirstBlogPost,
-        route: "cool-blog-post"
+        route: "/cool-blog-post"
     },
 
     {
@@ -17,7 +17,7 @@ const Posts = [
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         image: FirstBlogPostImage,
         content: FirstBlogPost,
-        route: "cool"
+        route: "/cool"
     },
 
     {
@@ -26,7 +26,7 @@ const Posts = [
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         image: FirstBlogPostImage,
         content: FirstBlogPost,
-        route: "post"
+        route: "/post0"
     },
 
 
@@ -36,7 +36,7 @@ const Posts = [
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         image: FirstBlogPostImage,
         content: FirstBlogPost,
-        route: "post"
+        route: "/post1"
     },
 
     {
@@ -45,7 +45,7 @@ const Posts = [
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         image: FirstBlogPostImage,
         content: FirstBlogPost,
-        route: "post"
+        route: "/post2"
     },
 
     {
@@ -54,7 +54,7 @@ const Posts = [
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         image: FirstBlogPostImage,
         content: FirstBlogPost,
-        route: "post"
+        route: "/post3"
     },
 
     {
@@ -63,7 +63,7 @@ const Posts = [
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         image: FirstBlogPostImage,
         content: FirstBlogPost,
-        route: "post"
+        route: "/post4"
     },
 
 ]

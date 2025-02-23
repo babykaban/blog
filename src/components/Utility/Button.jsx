@@ -1,9 +1,10 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { Button } from '../StyledComponents/StyledComponents';
 
 const PrimaryButton = (props) => {
     return(
-        <a href={props.route} target={props.newTab ? '_blank' : null}>
+        <Link to={props.route} target={props.newTab ? '_blank' : null}>
             <Button color={props.color} onClick={props.onClick} type={props.submit ? "submit" : "button"} right={props.right ? true : false} left={props.left ? true : false}>
                 {
                     props.left
@@ -21,7 +22,7 @@ const PrimaryButton = (props) => {
                     null
                 }
             </Button>
-        </a>
+        </Link>
     )
 }
 
