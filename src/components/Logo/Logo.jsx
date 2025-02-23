@@ -10,7 +10,7 @@ const split = Data.home.name.split(" ");
 const initials = split[0].charAt(0) + split[1].charAt(0);
 
 const Logo = (props) => (
-    <NavLogo href="/home">
+    <NavLogo href="/blog">
         <DesktopLogo>
             {Data.home.name}
         </DesktopLogo>

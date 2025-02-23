@@ -24,7 +24,7 @@ const HomeHero = () => {
                     <p>{Data.home.description}</p>
                 </Container>
 
-                <a href="/about">
+                <a href="/blog/about">
                     <Button
                         route="/blog/about"
                         text="About Me"

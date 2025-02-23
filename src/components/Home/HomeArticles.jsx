@@ -13,7 +13,7 @@ const HomeProjects = () => {
                 {Posts.map((project) => {
                     return (
                         <Article
-                            route={project.route}
+                            route={"/blog/" + project.route}
                             thumbnail={project.image}
                             title={project.title}
                             date={project.date}

@@ -23,7 +23,7 @@ root.render(
       <BrowserRouter>
         <AnimatePresence>
           <Routes>
-            <Route path="/blog/home" element={<Home />} />
+            <Route path="/blog" element={<Home />} />
             <Route path="/blog/about" element={<About />} />
             <Route path="/blog/contact" element={<Contact />} />
            
