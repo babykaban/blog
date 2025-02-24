@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/blog/static/css/main.1a8ac151.css",
-    "main.js": "/blog/static/js/main.b5c4363f.js",
+    "main.js": "/blog/static/js/main.b23a7206.js",
     "static/media/la-brands-400.svg": "/blog/static/media/la-brands-400.928495fae14841a0d610.svg",
     "static/media/la-solid-900.svg": "/blog/static/media/la-solid-900.a813034654b4ff0a0bac.svg",
+    "static/media/editor_picture_4.png": "/blog/static/media/editor_picture_4.e76f800965bb0a90f231.png",
     "static/media/la-solid-900.eot": "/blog/static/media/la-solid-900.4184d740eae2fb727bfe.eot",
     "static/media/la-solid-900.ttf": "/blog/static/media/la-solid-900.279f38601f1d1655255f.ttf",
     "static/media/la-brands-400.eot": "/blog/static/media/la-brands-400.908ce19d18187969b32f.eot",
@@ -16,15 +17,18 @@
     "static/media/post_1.png": "/blog/static/media/post_1.fc50aa1c80e1b2f263cb.png",
     "static/media/la-regular-400.eot": "/blog/static/media/la-regular-400.77111476f05dd3443047.eot",
     "static/media/la-regular-400.ttf": "/blog/static/media/la-regular-400.cf246e21218cab398b3d.ttf",
+    "static/media/test_img.png": "/blog/static/media/test_img.53d670726ad89f6ee80b.png",
     "static/media/la-regular-400.woff": "/blog/static/media/la-regular-400.aa859c0d08b8193d6586.woff",
     "static/media/la-regular-400.woff2": "/blog/static/media/la-regular-400.8dc1cedf1f4987f82b72.woff2",
-    "static/media/sample.md": "/blog/static/media/sample.5248f92f1404ebf4391f.md",
+    "static/media/2024-08-04-editor-update-map-mode.md": "/blog/static/media/2024-08-04-editor-update-map-mode.712235c1b8d01688ed20.md",
+    "static/media/sample.md": "/blog/static/media/sample.31d6cfe0d16ae931b73c.md",
+    "static/media/2024-07-29-editor-update-sswm-format.md": "/blog/static/media/2024-07-29-editor-update-sswm-format.e8f79fa36b1d290203b9.md",
     "index.html": "/blog/index.html",
     "main.1a8ac151.css.map": "/blog/static/css/main.1a8ac151.css.map",
-    "main.b5c4363f.js.map": "/blog/static/js/main.b5c4363f.js.map"
+    "main.b23a7206.js.map": "/blog/static/js/main.b23a7206.js.map"
   },
   "entrypoints": [
     "static/css/main.1a8ac151.css",
-    "static/js/main.b5c4363f.js"
+    "static/js/main.b23a7206.js"
   ]
 }
