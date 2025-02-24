@@ -4,7 +4,7 @@ import { SocialButton } from "./Style";
 const Social = (props) => (
     <a href={props.link} aria-label={props.social} title={props.social} target="_blank" rel="noopener noreferrer">
         <SocialButton social={props.social} margin={props.margin}>
-            <i className={`lab la-${props.icon}`}></i>
+            <i className={`lab la-${props.icon}`}></i> {/* Ensure line-awesome CSS is imported in index.js */}
         </SocialButton>
     </a>
 );

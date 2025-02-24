@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import { HashRouter, Routes, Route, Link } from "react-router-dom";
 
 import Home from "./pages/Home.jsx";
+import Projects from "./pages/Projects.jsx";
 import About from "./pages/About.jsx";
 import Contact from "./pages/Contact.jsx";
 
@@ -15,6 +16,8 @@ import theme from "./components/StyledComponents/Theme";
 
 import Posts from '../src/posts/Posts';
 
+import 'line-awesome/dist/line-awesome/css/line-awesome.min.css';
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
@@ -25,6 +28,7 @@ root.render(
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
+            <Route path="/projects" element={<Projects />} />
             <Route path="/contact" element={<Contact />} />
            
             {Posts.map(post => (

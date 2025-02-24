@@ -87,6 +87,30 @@ export const SocialButton = styled.button`
         `
     }
 
+    ${props => props.social === 'github' &&
+        css`
+            background: #333;
+            color: white;
+
+            &:hover {
+                background: darken(#333, 10%);
+                color: white;
+            }
+        `
+    }
+
+    ${props => props.social === 'x' &&
+        css`
+            background: #1DA1F2;
+            color: white;
+
+            &:hover {
+                background: darken(#1DA1F2, 10%);
+                color: white;
+            }
+        `
+    }
+
     ${props => props.margin &&
         css`
             margin-left: ${props.margin}rem; 

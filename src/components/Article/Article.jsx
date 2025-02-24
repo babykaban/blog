@@ -13,7 +13,7 @@ import { Fade } from 'react-awesome-reveal';
 
 const Project = (props) => {
     return (
-        <Fade direction="top" duration={1000} triggerOnce cascade>
+        <Fade direction="top" duration={200} triggerOnce cascade>
             <CaseLink as={Link} to={props.route} target={props.newTab ? '_blank' : null}>
                 <CaseStudyContainer>
                     <CaseStudyContent>

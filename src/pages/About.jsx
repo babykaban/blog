@@ -6,7 +6,7 @@ import {
 import Navigation from '../components/Navigation/Navigation.jsx';
 import AboutHero from '../components/About/AboutHero';
 import AboutDescription from '../components/About/AboutDescription';
-import AboutResume from '../components/About/AboutResume.jsx';
+//import AboutResume from '../components/About/AboutResume.jsx';
 import Footer from '../components/Footer/Footer.jsx';
 import Button from '../components/Utility/Button';
 import { Link } from 'react-router-dom';
@@ -18,7 +18,6 @@ const About = () => {
 			<BodyContainer>
 				<AboutHero />
 				<AboutDescription />
-				<AboutResume />
 				<Container flex center>
 					<Link to="/contact">
 						<Button

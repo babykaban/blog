@@ -1,59 +1,46 @@
 const About = {
     about: {
-        title: "I live somewhere between Sketch, JavaScript, and whiteboards.",
-        description: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?",
+        title: "I live somewhere between programming and engineering.",
+        description: "From an early age, I developed a fascination with building, assembling, and disassembling things. At around 12 years old, my brother introduced me to programming, which sparked my excitement. I began by writing simple programs in PascalABC, and soon after, I found another area of interest—radio electronics and robotics. For a few years, I worked with microcontrollers like Arduino and mini computers such as Raspberry Pi. During this time, I created projects ranging from motion detection systems to an autonomous car with a controller. As my passion for programming grew, I decided to focus more on honing my skills, which led me to learn Python. While I continued to improve my programming knowledge, I would occasionally switch my attention back to engineering. When I turned 16, my journey took a new turn. At 16, I moved to Canada, and during the COVID lockdown, I found myself unsure of what to do. It was then that my brother, a professional programmer, introduced me to Handmade Hero, a series of videos by Casey Muratori. This series was a game-changer for me. Watching Casey build a game engine almost entirely in raw C and explain his decision-making process in real time opened my eyes to the intricacies of programming. It inspired me to embark on creating my own game engine, which I’ve been working on for over three years. Along the way, I’ve built a small prototype game and an editor to accompany it. Though it's still a work in progress, it serves as a testament to my programming knowledge and growth. After graduating from Delview Secondary High School, I entered the job market, looking for opportunities in programming or game development. However, the reality is that breaking into the industry without formal experience or a degree is a challenge. So, I took a job at GolfBalls.ca, where the work is simple: sorting golf balls into the correct bins. While the job may be repetitive, it sparked an idea—why not automate it? This led me to start two projects: the Golf Ball Counter and the Golf Ball Sorter/Grader. I began with the Counter, and today I have an almost-working prototype. I’m continuously learning and growing, driven by my curiosity and desire to innovate. My journey in programming, engineering, and automation is far from over, and I’m excited for what lies ahead.",
         experience: [
             {
-                title: "Senior Product Designer",
-                company: "Google",
-                date: "2019 - Present",
-                description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-            },
-            {
-                title: "Product Designer",
-                company: "Dribbble",
-                date: "2017 - 2019",
-                description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-            },
-            {
-                title: "Product Designer",
-                company: "Facebook",
-                date: "2014 - 2017",
-                description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                title: "",
+                company: "",
+                date: "",
+                description: "",
             },
         ],
         education: [
             {
-                degree: "MS",
-                program: "Human-Centered Design & Engineering",
-                school: "University of Michigan",
-                date: "2019 - 2021",
-                about: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-            },
-            {
-                degree: "BFA",
-                program: "Graphic Design",
-                school: "University of Michigan",
-                date: "2009 - 2013",
-                about: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                degree: "High School",
+                program: "",
+                school: "",
+                date: "",
+                about: ""
             }
         ]
     },
     contact: {
         title: "Get in touch.",
-        description: "I'm always interested in meeting new people. Use the contact form, or you can shoot me an email at",
-        email: "hello@schrutefarms.com",
+        description: "I'm always interested in meeting new people. You can shoot me an email at",
+        email: "paul.solodrai@gmail.com",
         formspree: ""
     },
     home: {
-        name: "Dwight Schrute",
-        title: "Personal blog where I write code and explain all the things.",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        name: "Pavlo Solodrai",
+        title: "Personal blog where I talk about stuff that I do.",
+        description: "I'm a programmer and engineer. This blog is a place where I share my thoughts, decisions, experiences and eplain reasons for particular decisions.",
     },
+
+    projects: {
+        title: "Personal blog where I talk about stuff that I do.",
+        description: "I'm a programmer and engineer. This blog is a place where I share my thoughts, decisions, experiences and eplain reasons for particular decisions.",
+    },
+
     social: {
-        codepen: "stevehayes",
-        dribbble: "stevehayes",
-        linkedin: "stephenahayes"
+        linkedin: "stephenahayes",
+        github: "babykaban",
+        x: "BabyKaban"
     },
 
 };
