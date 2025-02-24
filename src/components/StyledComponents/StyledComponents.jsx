@@ -256,10 +256,10 @@ export const CaseStudyImage = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 500px;
+    max-width: 800px;
 
     img {
-        width: 100%;
+        width: 90%;
         align-self: flex-end;
     }
 

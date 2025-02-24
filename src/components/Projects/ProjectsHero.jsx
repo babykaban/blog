@@ -6,7 +6,6 @@ import {
     HeroContainer,
     BodyContainer
 } from '../StyledComponents/StyledComponents';
-import Button from '../Utility/Button';
 
 const HomeHero = () => {
     return(
@@ -18,20 +17,12 @@ const HomeHero = () => {
         >
             <BodyContainer>
                 <Container width={80} leftAlign bottom={2}>
-                    <h1>{Data.home.title}</h1>
+                    <h1>{Data.projects.title}</h1>
                 </Container>
 
                 <Container leftAlign bottom={6} width={65}>
-                    <p>{Data.home.description}</p>
+                    <p>{Data.projects.description}</p>
                 </Container>
-
-                <Link to="/about">
-                    <Button
-                        route="/about"
-                        text="About Me"
-                        right
-                    />
-                </Link>
             </BodyContainer>
         </HeroContainer>
     )

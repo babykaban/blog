@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import {
+    Image,
     Container,
     CaseLink,
     CaseStudyContainer,
@@ -33,7 +34,7 @@ const Project = (props) => {
                         />
                     </CaseStudyContent>
                     <CaseStudyImage background={props.color}>
-                        <img src={props.thumbnail} alt=""/>
+                        <Image src={props.thumbnail}/>
                     </CaseStudyImage>
                 </CaseStudyContainer>
             </CaseLink>

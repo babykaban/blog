@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import { HashRouter, Routes, Route, Link } from "react-router-dom";
 
 import Home from "./pages/Home.jsx";
-import Projects from "./pages/Projects.jsx";
+import ProjectsPage from "./pages/Projects.jsx";
 import About from "./pages/About.jsx";
 import Contact from "./pages/Contact.jsx";
 
@@ -15,6 +15,7 @@ import { ThemeProvider } from "styled-components";
 import theme from "./components/StyledComponents/Theme";
 
 import Posts from '../src/posts/Posts';
+import Projects from '../src/projects/Projects';
 
 import 'line-awesome/dist/line-awesome/css/line-awesome.min.css';
 
@@ -28,7 +29,7 @@ root.render(
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
-            <Route path="/projects" element={<Projects />} />
+            <Route path="/projects" element={<ProjectsPage />} />
             <Route path="/contact" element={<Contact />} />
            
             {Posts.map(post => (
@@ -39,6 +40,16 @@ root.render(
                           image={post.image}
                           content={post.content} />} />
             ))}
+
+            {Projects.map(project => (
+                <Route path={project.route} 
+                element={
+                <BlogPost title={project.title}
+                          date={project.date}
+                          image={project.image}
+                          content={project.content} />} />
+            ))}
+
           </Routes>
         </AnimatePresence>
       </HashRouter>

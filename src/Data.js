@@ -33,8 +33,8 @@ const About = {
     },
 
     projects: {
-        title: "Personal blog where I talk about stuff that I do.",
-        description: "I'm a programmer and engineer. This blog is a place where I share my thoughts, decisions, experiences and eplain reasons for particular decisions.",
+        title: "This page is a list of all projects that I have worked or am working on.",
+        description: "All projects have their related articles and links to blog posts. In each project, I explain why I decided to do it what is the goal of the project and on what stage it is now.",
     },
 
     social: {

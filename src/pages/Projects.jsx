@@ -1,15 +1,15 @@
 import React from 'react';
 import Navigation from '../components/Navigation/Navigation.jsx';
-import HomeHero from '../components/Home/HomeHero';
-import HomeArticles from '../components/Home/HomeArticles';
+import ProjectsHero from '../components/Projects/ProjectsHero';
+import ProjectsArticles from '../components/Projects/ProjectsArticles';
 import Footer from '../components/Footer/Footer.jsx';
 
 const Projects = () => {
     return (
         <>
             <Navigation page="projects" />
-            <HomeHero />
-            <HomeArticles />
+            <ProjectsHero />
+            <ProjectsArticles />
             <Footer />
         </>
     );

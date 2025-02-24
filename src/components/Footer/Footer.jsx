@@ -12,7 +12,7 @@ import { Fade } from "react-awesome-reveal";
 import Data from '../../Data';
 
 const Footer = (props) => (
-    <Fade direction="top" delay={250} triggerOnce>
+    <Fade direction="top" delay={150} triggerOnce>
         <FooterContainer>
             <BodyContainer>
                 <FooterLayout>
