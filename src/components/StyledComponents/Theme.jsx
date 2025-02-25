@@ -1,13 +1,13 @@
 export default {
     body: {
-        background: "#000",
-        text: "#888",
+        background: "#080808",
+        text: "#999",
         headers: "#FFF"
     },
     colors: {
         black: "#000",
         white: "#FFF",
-        gray: "#7A839A",
+        gray: "#161616",
     },
     queries: {
         mobile: "725px",
@@ -17,7 +17,7 @@ export default {
     transition: "all cubic-bezier(0.1, 0.1, 0.1, 0.1) 0.1s",
     typography: {
         font: "system-ui",
-        fontSize: "20px",
+        fontSize: "18px",
         fontWeight: "400",
         fontLineHeight: "1.6",
         fontLetterSpacing: "1px",

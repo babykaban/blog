@@ -1,0 +1,51 @@
+.markdown-content pre {
+    max-width: 100%;
+    overflow-x: auto;
+    background-color: #2e2e2e; /* Light dark color */
+    color: #f8f8f2; /* Light text color */
+    padding: 10px;
+    border-radius: 5px;
+    font-family: 'Liberation Mono', monospace; /* Apply Liberation Mono font */
+}
+
+/* Custom scrollbar styles */
+.markdown-content pre::-webkit-scrollbar {
+    height: 8px;
+}
+
+.markdown-content pre::-webkit-scrollbar-track {
+    background: #1e1e1e; /* Darker background for track */
+    border-radius: 5px;
+}
+
+.markdown-content pre::-webkit-scrollbar-thumb {
+    background: #555; /* Darker thumb color */
+    border-radius: 5px;
+}
+
+.markdown-content pre::-webkit-scrollbar-thumb:hover {
+    background: #888; /* Lighter thumb color on hover */
+}
+
+.markdown-content code {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #f8f8f2; /* Light text color */
+    font-family: 'Liberation Mono', monospace; /* Apply Liberation Mono font */
+}
+
+.markdown-content a {
+    text-decoration: underline; /* Add underscores to links */
+}
+
+/* Apply Liberation Mono font to all content */
+.markdown-content {
+    font-family: 'Liberation Mono', monospace; /* Apply Liberation Mono font */
+}
+
+.markdown-content img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px 0;
+}

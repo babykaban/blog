@@ -27,6 +27,7 @@ class Navigation extends React.Component {
 									<SubNavMenuListItem active={page === 'about' ? true : false}><Link to="/about">About</Link></SubNavMenuListItem>
 									<SubNavMenuListItem active={page === 'projects' ? true : false}><Link to="/projects">Projects</Link></SubNavMenuListItem>
 									<SubNavMenuListItem active={page === 'contact' ? true : false}><Link to="/contact">Contact</Link></SubNavMenuListItem>
+									{/*<SubNavMenuListItem active={page === 'test' ? true : false}><Link to="/test">Test</Link></SubNavMenuListItem>*/}
 								</SubNavMenuList>
 							</SubNavMenu>
 						</Nav>

@@ -1,0 +1,69 @@
+.markdown-content pre {
+    max-width: 100%;
+    overflow-x: auto;
+    background-color: #161616; /* Darker background */
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-family: 'Liberation Mono', monospace; /* Apply Liberation Mono font */
+}
+
+/* Custom scrollbar styles */
+.markdown-content pre::-webkit-scrollbar {
+    height: 8px;
+}
+
+.markdown-content pre::-webkit-scrollbar-track {
+    background: #1e1e1e; /* Darker background for track */
+    border-radius: 5px;
+}
+
+.markdown-content pre::-webkit-scrollbar-thumb {
+    background: #555; /* Darker thumb color */
+    border-radius: 5px;
+}
+
+.markdown-content pre::-webkit-scrollbar-thumb:hover {
+    background: #888; /* Lighter thumb color on hover */
+}
+
+.markdown-content code {
+    font-size: 14px;
+    line-height: 1.8;
+    color: #DAB98F; /* Bright text color */
+    background-color: #161616; /* Darker background */
+    font-family: 'Liberation Mono', monospace; /* Apply Liberation Mono font */
+}
+
+.markdown-content a {
+    text-decoration: underline; /* Add underscores to links */
+}
+
+/* Apply Liberation Mono font to all content */
+.markdown-content {
+    font-family: 'Liberation Mono', monospace; /* Apply Liberation Mono font */
+}
+
+.markdown-content table {
+    width: 100%;
+    border-collapse: collapse;
+    color: #ffe4b5; /* Light text color */
+    margin: 20px 0;
+    font-size: 14px;
+    font-family: 'Liberation Mono', monospace; /* Apply Liberation Mono font */
+}
+
+.markdown-content th, .markdown-content td {
+    padding: 10px;
+    border: 2px solid #151515;
+    text-align: center;
+}
+
+.markdown-content th {
+    background-color: #161616;
+    color: #ffe4b5;
+}
+
+.markdown-content tr:nth-child(even) {
+    background-color: #2c2c2c;
+}

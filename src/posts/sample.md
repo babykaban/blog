@@ -48,12 +48,15 @@ References are usually placed at the bottom of the document
 
 A sample image :
 
-![revolunet logo](http://www.revolunet.com/static/parisjs8/img/logo-revolunet-carre.jpg "revolunet logo")
+![Sample PNG](post_1.png "Sample PNG")
 
-As links, images can also use references instead of inline links :
+Another sample image :
 
-![revolunet logo][revolunet-logo]
+![Another Sample PNG](post_2.png "Another Sample PNG")
 
+Yet another sample image :
+
+![Yet Another Sample PNG](post_3.png "Yet Another Sample PNG")
 
 ## Code
 
@@ -84,7 +87,7 @@ class CardGame(object):
     """ a sample python class """
     NB_CARDS = 32
     def __init__(self, cards=5):
-        self.cards = random.sample(range(self.NB_CARDS), 5)
+        self.cards are random.sample(range(self.NB_CARDS), 5)
         print 'ready to play'
 ```
 

@@ -8,6 +8,7 @@ import {
 import Navigation from '../../components/Navigation/Navigation.jsx';
 import Footer from '../../components/Footer/Footer.jsx';
 import ProgressBar from '../../components/ProgressBar/ProgressBar';
+import './BlogPost.css'; // Import the CSS file
 
 class BlogPost extends React.Component {
 
@@ -16,20 +17,23 @@ class BlogPost extends React.Component {
     }
 
     componentDidMount() {
-      
+        const post_images = this.props.content_images ? this.props.content_images.map(img => require(`../../assets/img/${img}`)) : [];
+
         fetch(this.props.content)
-            .then(response => {
-                return response.text()
-            })
+            .then(response => response.text())
             .then(text => {
+                let updatedText = text;
+                post_images.forEach((image, index) => {
+                    const regex = new RegExp(`image_${index}\\.png`, 'g');
+                    updatedText = updatedText.replace(regex, image);
+                });
                 this.setState({
-                    markdown: marked(text)
-                })
-        })
+                    markdown: marked(updatedText)
+                });
+            });
     }
 
     render() {
-
         const { markdown } = this.state;
 
         return (
@@ -41,7 +45,7 @@ class BlogPost extends React.Component {
                         <h1>{this.props.title}</h1>
                         <p>{this.props.date}</p>
                         <Image src={this.props.image} />
-                        <div id={`post_${this.props.id}`} dangerouslySetInnerHTML={{__html: markdown}}></div>
+                        <div id={`post_${this.props.id}`} dangerouslySetInnerHTML={{ __html: markdown }} className="markdown-content"></div>
                     </Container>
                 </BodyContainer>
                 <Footer />

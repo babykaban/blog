@@ -1,11 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { HashRouter, Routes, Route, Link } from "react-router-dom";
+import { HashRouter, Routes, Route} from "react-router-dom";
 
 import Home from "./pages/Home.jsx";
 import ProjectsPage from "./pages/Projects.jsx";
 import About from "./pages/About.jsx";
 import Contact from "./pages/Contact.jsx";
+//import Test from "./pages/Test.jsx";
 
 import BlogPost from './components/BlogPost/BlogPost';
 
@@ -31,6 +32,7 @@ root.render(
             <Route path="/about" element={<About />} />
             <Route path="/projects" element={<ProjectsPage />} />
             <Route path="/contact" element={<Contact />} />
+            {/*<Route path="/test" element={<Test />} />*/}
            
             {Posts.map(post => (
                 <Route path={post.route} 
@@ -38,6 +40,7 @@ root.render(
                 <BlogPost title={post.title}
                           date={post.date}
                           image={post.image}
+                          content_images={post.content_images}
                           content={post.content} />} />
             ))}
 

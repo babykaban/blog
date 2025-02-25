@@ -1,11 +1,3 @@
----
-layout: post
-title: Triangle Boolean Subtraction
-date: 2024-08-18
-description: Editor update
-categories: blog
-pretty_table: true
----
 
 ## Introduction
 In game development, navigation meshes are useful for defining walkable areas where AI characters can move. 
