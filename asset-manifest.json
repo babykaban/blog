@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/blog/static/css/main.1a8ac151.css",
-    "main.js": "/blog/static/js/main.b23a7206.js",
+    "main.css": "/blog/static/css/main.c392455d.css",
+    "main.js": "/blog/static/js/main.65ecc8c6.js",
     "static/media/la-brands-400.svg": "/blog/static/media/la-brands-400.928495fae14841a0d610.svg",
     "static/media/la-solid-900.svg": "/blog/static/media/la-solid-900.a813034654b4ff0a0bac.svg",
     "static/media/editor_picture_4.png": "/blog/static/media/editor_picture_4.e76f800965bb0a90f231.png",
+    "static/media/editor_picture_4_.png": "/blog/static/media/editor_picture_4_.8566932b570444bc66bb.png",
     "static/media/la-solid-900.eot": "/blog/static/media/la-solid-900.4184d740eae2fb727bfe.eot",
     "static/media/la-solid-900.ttf": "/blog/static/media/la-solid-900.279f38601f1d1655255f.ttf",
     "static/media/la-brands-400.eot": "/blog/static/media/la-brands-400.908ce19d18187969b32f.eot",
@@ -19,16 +20,18 @@
     "static/media/la-regular-400.ttf": "/blog/static/media/la-regular-400.cf246e21218cab398b3d.ttf",
     "static/media/test_img.png": "/blog/static/media/test_img.53d670726ad89f6ee80b.png",
     "static/media/la-regular-400.woff": "/blog/static/media/la-regular-400.aa859c0d08b8193d6586.woff",
+    "static/media/2024-08-18-editor-update-triangle-subtraction.md": "/blog/static/media/2024-08-18-editor-update-triangle-subtraction.5e75bcae18ba7e717a5b.md",
     "static/media/la-regular-400.woff2": "/blog/static/media/la-regular-400.8dc1cedf1f4987f82b72.woff2",
-    "static/media/2024-08-04-editor-update-map-mode.md": "/blog/static/media/2024-08-04-editor-update-map-mode.712235c1b8d01688ed20.md",
-    "static/media/sample.md": "/blog/static/media/sample.31d6cfe0d16ae931b73c.md",
-    "static/media/2024-07-29-editor-update-sswm-format.md": "/blog/static/media/2024-07-29-editor-update-sswm-format.e8f79fa36b1d290203b9.md",
+    "static/media/2024-08-04-editor-update-map-mode.md": "/blog/static/media/2024-08-04-editor-update-map-mode.5cdbc4b0a1c348d37bba.md",
+    "static/media/ff.PNG": "/blog/static/media/ff.a5266fdcc8aa965b05c4.PNG",
+    "static/media/2024-07-29-editor-update-sswm-format.md": "/blog/static/media/2024-07-29-editor-update-sswm-format.3f3a08f81065d880edaa.md",
     "index.html": "/blog/index.html",
-    "main.1a8ac151.css.map": "/blog/static/css/main.1a8ac151.css.map",
-    "main.b23a7206.js.map": "/blog/static/js/main.b23a7206.js.map"
+    "static/media/sample.md": "/blog/static/media/sample.31d6cfe0d16ae931b73c.md",
+    "main.c392455d.css.map": "/blog/static/css/main.c392455d.css.map",
+    "main.65ecc8c6.js.map": "/blog/static/js/main.65ecc8c6.js.map"
   },
   "entrypoints": [
-    "static/css/main.1a8ac151.css",
-    "static/js/main.b23a7206.js"
+    "static/css/main.c392455d.css",
+    "static/js/main.65ecc8c6.js"
   ]
 }
